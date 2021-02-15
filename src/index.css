@@ -1,0 +1,63 @@
+.bindigo {
+  background: indigo  !important;
+}
+.brindigo {
+  border:1px solid indigo !important;
+  opacity: 0.5;
+  background: darkgrey;
+}
+.cindigo {
+  color: indigo !important; 
+}
+.sidebar {
+  background: whitesmoke;
+}
+.active {
+  background: white;
+  font-weight: bold;
+}
+.card {
+  border: none !important;
+}
+.thumbnail i {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-left: -25px;
+  margin-top: -30px;
+  color: grey;
+  border: indigo !important;
+}
+td:nth-child(even), th:nth-child(even) {
+  background: whitesmoke;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.content-container .left-nav-wrapper {
+  width: 270px;
+  height: 100vh;
+  background: #dfdfdf;
+  overflow-y: auto;
+  
+}
+.content-container ul.navigation-panel {
+  padding: 0px;
+  margin: 0;
+}
+.content-container .left-nav-wrapper ul li {
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid gray;
+  background: #c1c1c1;
+  cursor: pointer;
+}
+.content-container .left-nav-wrapper ul li.active {
+  background: #efefef;
+}
+.content-container .right-content-wrapper {
+  width: 100%;
+  padding-left: 15px;
+}
